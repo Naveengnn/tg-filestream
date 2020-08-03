@@ -11,7 +11,7 @@ should include the protocol, e.g. `https://example.com`.
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Suyashjain05/tg-filestream)
 
 Watch our YouTube video for more details - [How To Create Your Own Telegram File To Link Generation Bot](http://www.youtube.com/watch?v=H-bEuLjwdfY)
 
@@ -28,6 +28,8 @@ Watch our YouTube video for more details - [How To Create Your Own Telegram File
 * `REQUEST_LIMIT` (default 5) - The maximum number of requests a single IP can have active at a time.
 * `CONNECTION_LIMIT` (default 20) - The maximum number of connections to a single Telegram datacenter.
 * `TG_START_MESG` - The message that should be shown in Telegram chat, in case of non-media message.
+* ` Heroku app name` - here u need to enter your heroku app name to check it's dynos.
+* ` Heroku API ` - Here u need to add your heroku account's API key to help check your dynos.
 
 ## How to get TG_SESSION_NAME string
 
